@@ -1,6 +1,6 @@
-import React from 'react'
-import img from '../../public/images/WhatsApp Image 2025-09-07 at 23.15.33_8434d320.jpg'
-import Image from 'next/image'
+
+import img from '../../public/images/WhatsApp Image 2025-09-07 at 23.15.33_8434d320.jpg';
+import Image from 'next/image';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -12,7 +12,7 @@ export const Hero = () => {
       
         <div className='basis-3/4 max-xl:text-center max-xl:basis-full'>
             <p className='mb-5 bg-[#dcfce7] text-[#28a745] border border-[#28a745] w-fit px-3 py-2 rounded-3xl font-bold block max-xl:mx-auto hover:scale-105 hover:shadow-[28a745] duration-150'>Available for freelance work</p>
-            <h1 className='text-5xl font-bold max-md:text-3xl'>Hi, I'm <span>AbdElRahman Ahmed</span></h1>
+            <h1 className='text-5xl font-bold max-md:text-3xl'>Hi, I&apos;m <span>AbdElRahman Ahmed</span></h1>
             <h2 className='mt-3 opacity-50'>A Frontend Developer</h2>
             <p className='mt-3 opacity-50 font-bold'>I create beautiful, functional, and user-centered digital experiences.
 I bring ideas to life with clean code and thoughtful design.</p>
