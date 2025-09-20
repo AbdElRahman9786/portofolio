@@ -37,7 +37,7 @@ I bring ideas to life with clean code and thoughtful design.</p>
     </div>
             </div>
               <div className=' w-1/3 max-xl:w-1/2 max-md:w-3/4 max-xl:basis-full'>
-            <Image src={img} alt="Hero Image" className=' rounded-2xl '/>
+            <Image src={img} alt="Hero Image" className=' rounded-2xl ' priority/>
         </div>
         
     </div>
