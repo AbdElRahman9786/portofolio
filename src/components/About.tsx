@@ -10,9 +10,11 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import DownloadIcon from '@mui/icons-material/Download';
 import SendIcon from '@mui/icons-material/Send';
 
-export const About = () => {
+export const About: React.FC = () => {
   return (
+    
     <div className='w-[90%] mx-auto'>
+    
       <div className='text-center mt-20'>
         <h1 className='font-bold text-4xl mb-3'>About Me</h1>
         <p className='text-[#575b5e]'>Passionate about creating innovative solutions through technology</p>
